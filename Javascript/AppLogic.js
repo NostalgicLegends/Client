@@ -191,7 +191,7 @@ class AppLogic {
 
 function chooseLang() {
     console.log(navigator.language)
-    var availableLang = ['en', 'es', 'ro', 'de', 'tr', 'fr', 'pt-BR']
+    var availableLang = ['en', 'es', 'ro', 'de', 'tr', 'fr', 'pt_BR']
     if (availableLang.indexOf(navigator.language)) {
         selectedLang = navigator.language;
     }
